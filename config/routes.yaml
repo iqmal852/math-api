@@ -1,0 +1,24 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+#
+#api_add:
+#  path: /add/{a}/{b}
+#  controller: 'App\Controller\Api\AddController::add'
+#  methods: GET|HEAD
+
+#api_add_2:
+#  path: /add/{a}/{b}/{c}
+#  controller: 'App\Controller\Api\AddController::add'
+#  methods: GET|HEAD
+#
+#
+#api_sub:
+#  path: /sub/{a}/{b}
+#  controller: 'App\Controller\Api\SubtractController'
+#  methods: GET|HEAD
+#
+#api_multiply:
+#  path: /mul/{a}/{b}
+#  controller: 'App\Controller\Api\MultiplyController'
+#  methods: GET|HEAD
