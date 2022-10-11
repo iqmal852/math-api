@@ -20,7 +20,6 @@ or for production use
 composer install --no-dev
 ```
 
-Next rename `.env.local` to `.env`.
 After that run command :
 ```sh
 ./bin/console generate-app-secret
